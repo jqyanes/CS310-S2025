@@ -6,7 +6,7 @@ Your job is to find as many of the polluted rows as you can. Polluted entries wi
 
  
 
-Follow the header format of SolutionTemplate.csv, where the first column is the ID, and the second column is the column in the dataset with the pollution. An optional third column is provided if you wish to provide a brief description of why the entry is incorrect (Do not create a unique description for each row, as you will find that the same description can be applied to many rows).
+Follow the header format of SolutionTemplate.csv, where the first column is the ID, and the second column is the column in the dataset with the pollution. An optional third column is provided if you wish to provide a brief description of why the entry is incorrect (do not create a unique description for each row, as you will find that the same description can be applied to many rows).
 
  
 
@@ -48,6 +48,6 @@ If a row is missing entries across the entire row, you only need to report it on
 
 Don't worry about leading/trailing spaces
 
-Don't worry about incorrect data types (If "1" is a string/char instead of an int, that's fine)
+Don't worry about incorrect data types (e.g. if "1" is a string/char instead of an int)
 
 If an entire row is null, just report it once and put something along the lines of "all columns" for the column in your solution file
