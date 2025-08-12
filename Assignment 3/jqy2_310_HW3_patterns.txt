@@ -1,0 +1,7 @@
+1. If the airport's country (indicated by 'Airport Country Code') matches 'Nationality', then 'Eligible_For_Discount' is 'Yes'
+
+2. If the month of the departure date is January or December ('Departure Date' starts with '1/', '01/', or '12/'), then 'Eligible_For_Discount' is 'Yes'
+
+3. If 'Gender' is 'Female' and 'Ticket Price' % 4 == 0, then 'Eligible_For_Discount' is 'Yes'
+
+4. If 'Age' < 5 or 'Age' > 85, then 'Eligible_For_Discount' is 'Yes'
